@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hideplayers",
+  "version": "${version}",
+  "name": "HidePlayers",
+  "description": "I don't like players",
+  "authors": [
+    "minemobs"
+  ],
+  "contact": {
+    "sources": "https://github.com/minemobs/hideplayers",
+    "issues": "https://github.com/minemobs/hideplayers/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/hideplayers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "fr.minemobs.hideplayers.HidePlayers"
+    ]
+  },
+  "mixins": [
+    "hideplayers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "1.17.x"
+  }
+}
