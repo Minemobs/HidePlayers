@@ -21,7 +21,7 @@ public class HidePlayers implements ModInitializer {
                 "key.hideplayers.hideplayers",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_H,
-                KeyBinding.UI_CATEGORY
+                "key.hideplayers.hideplayers"
         ));
         ClientTickEvents.END_CLIENT_TICK.register(unused -> {
             while(renderPlayerKey.wasPressed()) {
